@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Build output
+Client/dist/
+
+# Database
+Server/data/fuel.db
+Server/data/fuel.db-shm
+Server/data/fuel.db-wal
+
+# Environment
+.env
+.env.*
+
+# Vite temp files
+*.timestamp-*.mjs
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Claude Code
+.claude/
