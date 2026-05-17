@@ -10,13 +10,13 @@ export default defineConfig({
     // Proxy pour rediriger les appels API vers le backend
     proxy: {
       '/api': {
-        target: 'http://192.168.1.46:4000',
+        target: 'http://localhost:4000',
         changeOrigin: true,
         secure: false,
       },
       // Proxy pour Socket.IO aussi
       '/socket.io': {
-        target: 'http://192.168.1.46:4000',
+        target: 'http://localhost:4000',
         changeOrigin: true,
         ws: true, // Important pour WebSocket
       },

@@ -5,7 +5,7 @@
 // En développement (Vite), on pointe vers le serveur backend
 // En production (build servi par le backend), on utilise la même origine
 const API_BASE = import.meta.env.DEV 
-  ? "http://192.168.1.46:4000"  // URL du backend en développement
+  ? "http://localhost:4000"  // URL du backend en développement
   : "";                          // Même origine en production
 
 // ---- Gestion du token ----
