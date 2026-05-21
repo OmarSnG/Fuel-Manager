@@ -2,7 +2,7 @@ import { io } from "socket.io-client";
 import { getToken } from "./api";
 
 const SOCKET_URL = import.meta.env.DEV
-  ? "http://192.168.1.46:4000"
+  ? "http://192.168.1.44:4000"
   : "";
 
 export const socket = io(SOCKET_URL, {

@@ -1,0 +1,12 @@
+{
+  "name": "fuel-manager-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "node deploy.cjs",
+    "logs": "npx pm2 logs",
+    "status": "npx pm2 list",
+    "restart": "npx pm2 restart ecosystem.config.cjs",
+    "stop": "npx pm2 stop ecosystem.config.cjs"
+  }
+}

@@ -24,7 +24,7 @@ const PORT = Number(process.env.PORT || 4000);
 const HOST = "0.0.0.0";
 const DATA_DIR = path.join(__dirname, "data");
 const DB_PATH  = process.env.DB_PATH || path.join(DATA_DIR, "fuel.db");
-const LAN_ORIGIN = process.env.LAN_ORIGIN || "http://192.168.1.46";
+const LAN_ORIGIN = process.env.LAN_ORIGIN || "http://192.168.1.44";
 if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR, { recursive: true });
 
 // ---- Sessions en memoire ----

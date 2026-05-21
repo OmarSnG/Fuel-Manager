@@ -15,6 +15,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "4.2.0",
+    "serve": "^14.2.6",
     "vite": "5.1.6"
   }
 }
