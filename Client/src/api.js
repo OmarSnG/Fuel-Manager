@@ -5,8 +5,8 @@
 // En développement (Vite), on pointe vers le serveur backend
 // En production (build servi par le backend), on utilise la même origine
 const API_BASE = import.meta.env.DEV 
-  ? "http://localhost:4000"  // URL du backend en développement
-  : "";                          // Même origine en production
+  ? "http://192.168.1.44:4000"  // URL du backend en développement
+  : "http://192.168.1.44:4000";   // PROD = absolute URL (client servi separement)
 
 // ---- Gestion du token ----
 const TOKEN_KEY = "fuel-auth-token";
